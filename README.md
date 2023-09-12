@@ -4,10 +4,11 @@ Apuntes del módulo de "Desarrollo Web en Entorno Cliente" del 2º curso del CFG
 
 ## Bloques
 
-El módulo se va a dividir en 2 grandes bloques:
+El módulo se va a dividir en tres grandes bloques:
 
 1. **Javascript:** En la primera evaluación aprenderemos a usar el lenguaje Javascipt repasando lo visto en primer curso y estableciendo las bases para el framework Vue.
 2. **Vue**: En este segundo bloque usaremos el framework Javascript **Vue JS**
+3. **Projecto Intermodular:** En este projecto, con metodología SCRUM, realizaremos un projecto completo que comprenderá todos los módulos del segundo curso.
 
 ## Licencia
 
@@ -188,7 +189,7 @@ Todos estos contenidos se organizan en 2 bloques temáticos:
 - Bloque 1: JavaScript
 - Bloque 2: Frameworks JavaScript. Vue JS
 
-Además, al final del módulo y de forma optativa, se realizará un proyecto integrador junto con los módulos de *Desarrollo Web en Entorno Servidor* y *Interfaces Web* (si hay disponibilidad).
+Además, al final del módulo se realizará un proyecto integrador junto con los módulos del segundo curso de DAW.
 
 Los contenidos detallados de cada bloque son:
 
@@ -230,7 +231,7 @@ Aquesta temporalització és una previsió i pot modificar-se per les circumstà
   - Bloque 2 - Vue JS: UD09 a UD11
 - 2ª Evaluación
   - Bloque 2 - Vue JS: UD12 a UD14
-  - Proyecto intermódulos SCRUM
+  - Proyecto intermodular SCRUM
 - 3ª Evaluación -----> Plan de recuperación para la evaluación extraordinaria.
 
 ### 7. Criterios de evaluación y calificación
