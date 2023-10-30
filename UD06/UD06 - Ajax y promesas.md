@@ -282,7 +282,7 @@ document.getElementById('addProduct').addEEventListener('submit', (event) => {
   const descrip=document.getElementById("descrip").value;
 
   const peticion=new XMLHttpRequest();
-  peticion.open('GET', 'https://localhost/products');
+  peticion.open('POST', 'https://localhost/products');
   peticion.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
   peticion.send('name='+encodeURIComponent(name)+'&descrip='+encodeURIComponent(descrip));
   peticion.addEventListener('load', function() {
@@ -392,7 +392,7 @@ window.addEventListener('load', function() {
     } else {
       const posts = getPosts(idUser);
       tbody.innerHTML = ''; // borramos el contenido de la tabla
-      datos.forEach(post => {
+      posts.forEach(post => {
         const newPost = document.createElement('tr');
         newPost.innerHTML = `
             <td>${post.userId}</td>
