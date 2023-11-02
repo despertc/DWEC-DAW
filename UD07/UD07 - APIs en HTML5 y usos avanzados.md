@@ -57,7 +57,7 @@ NOTA: si hacemos _draggable_ un elemento, por ejemplo un párrafo, ya no se pued
 
 Podemos obtener más información de esta API [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API).
 
-> **EJERCICIO 1_UD7**: mira y modifica el ejemplo de [w3schools](https://www.w3schools.com/html/html5_draganddrop.asp) para entender bien el funcionamiento del Drag&Drop (ten en cuenta que en vez de .addEventListener() las llamadas a los escuchadores están puestas como atributos del HTML pero el funcionamiento es el mismo).
+> **PRUEBA 1_UD7**: mira y modifica el ejemplo de [w3schools](https://www.w3schools.com/html/html5_draganddrop.asp) para entender bien el funcionamiento del Drag&Drop (ten en cuenta que en vez de .addEventListener() las llamadas a los escuchadores están puestas como atributos del HTML pero el funcionamiento es el mismo).
 
 ## 3. Almacenamiento en el cliente: API Storage
 Antes de HTML5 la única manera que tenían los programadores de guardar algo en el navegador del cliente (como sus preferencias, su idioma predeterminado para nuestra web, etc) era utilizando _cookies_. Las cookies tienen muchas limitaciones y es engorroso trabajar con ellas. 
@@ -88,7 +88,7 @@ window.addEventListener("storage", actualizaDatos);
 
 y la función 'actualizaDatos' podrá leer de nuevo lo que hay y actuar en consecuencia.
 
-> **EJERCICIO 2_UD7**: comprueba qué tienes almacenado en el localStorage y el sessionStorage de tu navegador. GUarda y recupera algunas variables. Luego cierra el navegador y vuelve a abrir la página. ¿Están las variables guardadas en localStorage? ¿Y las de sessionStorage?
+> **PRUEBA 2_UD7**: comprueba qué tienes almacenado en el localStorage y el sessionStorage de tu navegador. GUarda y recupera algunas variables. Luego cierra el navegador y vuelve a abrir la página. ¿Están las variables guardadas en localStorage? ¿Y las de sessionStorage?
 
 Puedes ver un ejemplo [en este vídeo](https://www.youtube.com/watch?v=ASQQUSFtr8g&list=PLI7nHlOIIPOJtTDs1HVJABswW-xJcA7_o&index=65) de cómo almacenar en el _Storage_ datos del usuario.
 
