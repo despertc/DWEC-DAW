@@ -132,27 +132,27 @@ Fichero HTML:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hello world</title>
+  <title>Prueba View</title>
 </head>
 <body>
 
   <div id="app">
-    <p>{ { message }}</p>
+    <p>{{ message }}</p>
   </div>
 
   <script src="https://unpkg.com/vue"></script>
-  <script src="01-HelloWorld.js"></script>
+  <script src="HelloWorld.js"></script>
 </body>
 </html>
 ```
 Nuestro código debemos cargarlo después de cargar la librería y de crear el elemento HTML que contenga la aplicación.
 
-Fichero JS en Vue3:
+Fichero `HelloWorld.js` JS en Vue3:
 ```javascript
 var miApp = Vue.createApp({
   data() {
     return {
-      message: 'Hello Vue.js!'
+      message: 'Hello World in Vue.js!'
     }
   }
 }).mount('#app');
