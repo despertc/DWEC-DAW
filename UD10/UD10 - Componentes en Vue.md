@@ -51,10 +51,10 @@ app.component('todo-item', {
     <li>
       <input type="checkbox" v-model="elem.done">
       <del v-if="elem.done">
-        { { elem.title }}
+        {{ elem.title }}
       </del>
       <span v-else>
-        { { elem.title }}
+        {{ elem.title }}
       </span>
     </li>`,
   data: ()=>({
@@ -276,6 +276,41 @@ La versión actual es la 4 que ha cambiado de una arquitectura basada en plantil
 ### 3.1 Instalación
 
 Para usar **vue-cli** necesitamos tener instalado **npm** (el gestor de paquetes de Node.js). Si no lo tenemos instalaremos **node.js**. 
+
+Seguimos estos pasos:
+
+- Bajamos e importamosNodesource GPG key
+
+  ```
+  sudo apt-get update
+  sudo apt-get install -y ca-certificates curl gnupg
+  sudo mkdir -p /etc/apt/keyrings
+  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+  ```
+
+- Creamos el repositorio
+
+```
+NODE_MAJOR=20
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+```
+
+- Si estamos en **Lliurex**, ejecutamos:
+
+```
+sudo repoman-cli -d 0
+sudo apt-get install nodejs -y
+sudo repoman-cli -e 0
+```
+
+- Si es un Ubuntu/Debian al uso:
+
+```
+sudo apt-get update
+sudo apt-get install nodejs -y
+```
+
+
 
 Podemos instalarlo desde los repositorios como cualquier otro programa (`apt install nodejs`), pero no es lo recomendado porque nos instalará una versión poco actualizada por lo que es mejor [instalarlo desde NodeSource](https://nodejs.org/es/download/package-manager/#distribuciones-de-linux-basadas-en-debian-y-ubuntu)_ siguiendo las instrucciones que se indican y que básicamente son:
 
