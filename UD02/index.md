@@ -1,8 +1,43 @@
 # UD02 - Arrays y programación Orientada a Objetos en Javascript
 
-[TOC]
+**Tabla de contenidos**
 
-
+- [1. Arrays](#1-arrays)
+   * [1.1 Introducción](#11-introducción)
+   * [1.2 Operaciones con Arrays](#12-operaciones-con-arrays)
+      + [1.2.1 lenght](#121-lenght)
+      + [1.2.2 Añadir elementos](#122-añadir-elementos)
+      + [1.2.3 Eliminar elementos](#123-eliminar-elementos)
+      + [1.2.4 splice](#124-splice)
+      + [1.2.5 slice](#125-slice)
+      + [1.2.6 Arrays y Strings](#126-arrays-y-strings)
+      + [1.2.7 sort](#127-sort)
+      + [1.2.8 Otros métodos comunes](#128-otros-métodos-comunes)
+      + [1.2.9 Functional Programming](#129-functional-programming)
+         - [1.2.9.1 filter](#1291-filter)
+         - [1.2.9.2 find](#1292-find)
+         - [1.2.9.3 findIndex](#1293-findindex)
+         - [1.2.9.4 every / some](#1294-every--some)
+         - [1.2.9.5 map](#1295-map)
+         - [1.2.9.6 reduce](#1296-reduce)
+         - [1.2.9.7 forEach](#1297-foreach)
+         - [1.2.9.8 includes](#1298-includes)
+         - [1.2.9.9 Array.from](#1299-arrayfrom)
+   * [1.3 Referencia vs Copia](#13-referencia-vs-copia)
+   * [1.4 Rest y Spread](#14-rest-y-spread)
+   * [1.5 Desestructuración de arrays](#15-desestructuración-de-arrays)
+   * [1.6 Map](#16-map)
+   * [1.7 Set](#17-set)
+- [2. Programación Orientada a Objetos (POO)](#2-programación-orientada-a-objetos-poo)
+   * [2.1 Introducción](#21-introducción)
+   * [2.2 Propiedades de un objeto](#22-propiedades-de-un-objeto)
+   * [2.3 Clases](#23-clases)
+      + [2.3.1 Ojo con _this_](#231-ojo-con-_this_)
+      + [2.3.2 Herencia](#232-herencia)
+      + [2.3.3 Métodos estáticos](#233-métodos-estáticos)
+      + [2.3.4 toString() y valueOf()](#234-tostring-y-valueof)
+   * [2.4 POO en ES5](#24-poo-en-es5)
+- [Bibliografía](#bibliografía)
 
 ## 1. Arrays
 
