@@ -1,6 +1,25 @@
 # UD08 - Testing
 
-[TOC]
+**Tabla de contenido**
+
+   * [1. Introducción al testing](#1-introducción-al-testing)
+   * [2. Testing en Javascript](#2-testing-en-javascript)
+   * [Instalar npm](#instalar-npm)
+   * [Instalar jest](#instalar-jest)
+   * [Transpilar nuestro código](#transpilar-nuestro-código)
+      + [Usando Babel con Jest](#usando-babel-con-jest)
+   * [Usando Webpack](#usando-webpack)
+      + [Instalar webpack](#instalar-webpack)
+      + [Ejecutar webpack](#ejecutar-webpack)
+      + [Enlazar el fichero generado en el HTML](#enlazar-el-fichero-generado-en-el-html)
+   * [Testear la UI](#testear-la-ui)
+- [Usar jest](#usar-jest)
+   * [Matchers](#matchers)
+   * [Test suites](#test-suites)
+   * [Mocks](#mocks)
+   * [Testear promesas](#testear-promesas)
+   * [Hooks de Jest](#hooks-de-jest)
+- [Desarrollo guiado por pruebas (TDD)](#desarrollo-guiado-por-pruebas-tdd)
 
 ## 1. Introducción al testing
 Es fundamental que nuestro código tenga un cierto nivel de calidad para minimizar los fallos del programa, más cuanto más compleja es la aplicación que estamos desarrollando. Para ello debemos testearlo y dicho testeo seguramente incluirá test automáticos. Dichos test nos permiten:
