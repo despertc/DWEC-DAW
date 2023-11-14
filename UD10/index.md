@@ -1,8 +1,34 @@
 # UD 10 - Componentes en Vue
-[TOC]
+**Tabla de contenidos**
 
+- [1. Introducción](#1-introducción)
+- [2. Usar un componente](#2-usar-un-componente)
+   * [2.1 Parámetros: _props_](#21-parámetros-_props_)
+   * [2.2 A tener en cuenta](#22-a-tener-en-cuenta)
+      + [2.2.1_template_ es recomendable que contenga un único elemento](#221_template_-es-recomendable-que-contenga-un-único-elemento)
+      + [2.2.2_data_ debe ser una función](#222_data_-debe-ser-una-función)
+   * [2.3 Registrar un componente localmente](#23-registrar-un-componente-localmente)
+- [3. Vue-cli](#3-vue-cli)
+   * [3.1 Instalación](#31-instalación)
+   * [3.2. Creación de un nuevo proyecto](#32-creación-de-un-nuevo-proyecto)
+      + [3.2.1 Ejemplo proyecto por defecto](#321-ejemplo-proyecto-por-defecto)
+      + [3.2.2_Build and Deploy_ de nuestra aplicación](#322_build-and-deploy_-de-nuestra-aplicación)
+      + [3.2.3_Scaffolding_ creado](#323_scaffolding_-creado)
+         - [3.2.3.1 package.json](#3231-packagejson)
+         - [3.2.3.2 Estructura de nuestra aplicación](#3232-estructura-de-nuestra-aplicación)
+   * [3.3 SFC (_Single File Component_)](#33-sfc-_single-file-component_)
+      + [3.3.1 Secciones de un Single File Component](#331-secciones-de-un-single-file-component)
+         - [\<template>](#)
+         - [\<script>](#-1)
+         - [\<style>](#-2)
+         - [Custom blocks](#custom-blocks)
+   * [3.4 Añadir nuevos paquetes y plugins](#34-añadir-nuevos-paquetes-y-plugins)
+      + [3.4.1 Bootstrap](#341-bootstrap)
+   * [3.5 Crear un nuevo componente](#35-crear-un-nuevo-componente)
+   * [3.6 Depurar el código en la consola](#36-depurar-el-código-en-la-consola)
 
 ## 1. Introducción
+
 El sistema de componentes es un concepto importante en Vue y en cualquier framework moderno. En lugar de separar nuestra aplicación en ficheros según el tipo de información que contienen (ficheros html, css o js) es más lógico separarla según su funcionalidad. Una página web muestra una UI donde se pueden distinguir diferentes partes. En el siguiente ejemplo tenemos:
 
 ![Ejemplo de página web](./img/borsaTreball.png)
