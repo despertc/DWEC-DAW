@@ -1,5 +1,20 @@
 # UD07 - APIs en HTML5 y usos avanzados
-[TOC]
+**Tabla de contenidos**
+
+- [1. Introducción](#1-introducción)
+- [2. HTML Drag And Drop API](#2-html-drag-and-drop-api)
+- [3. Almacenamiento en el cliente: API Storage](#3-almacenamiento-en-el-cliente-api-storage)
+   * [3.1 A tener en cuenta](#31-a-tener-en-cuenta)
+   * [3.2 Storage vs cookies](#32-storage-vs-cookies)
+   * [3.3 Cookies](#33-cookies)
+- [4. Geolocation API](#4-geolocation-api)
+- [5. Google Maps API](#5-google-maps-api)
+- [6. Más cosas a aprender en Javascript](#6-más-cosas-a-aprender-en-javascript)
+   * [6.1 WebComponents](#61-webcomponents)
+   * [6.2 WebSockets](#62-websockets)
+   * [6.3 WebWorkers](#63-webworkers)
+   * [6.4 Typescript](#64-typescript)
+- [7. jQuery](#7-jquery)
 
 ## 1. Introducción
 En este tema varemos diferentes APIs incluidas en HTML5 (como la de Local Storage) y otras que se han hecho muy populares como la de Google Maps.
