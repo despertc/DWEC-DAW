@@ -1,5 +1,28 @@
 # UD06 - Ajax y promesas
-[TOC]
+**Tabla de contenidos**
+
+- [1. Introducción](#1-introducción)
+- [2. Métodos HTTP](#2-métodos-http)
+   * [2.1 Json Server](#21-json-server)
+   * [2.2 REST client](#22-rest-client)
+- [3. Realizar peticiones Ajax](#3-realizar-peticiones-ajax)
+   * [3.1 Eventos de XMLHttpRequest](#31-eventos-de-xmlhttprequest)
+   * [3.2 Ejemplos de envío de datos](#32-ejemplos-de-envío-de-datos)
+   * [3.3 Enviar datos al servidor en formato JSON](#33-enviar-datos-al-servidor-en-formato-json)
+   * [3.4 Enviar datos al servidor en formato URIEncoded](#34-enviar-datos-al-servidor-en-formato-uriencoded)
+   * [3.5 Enviar ficheros al servidor con FormData](#35-enviar-ficheros-al-servidor-con-formdata)
+- [4. Ejemplo de petición Ajax](#4-ejemplo-de-petición-ajax)
+   * [4.1 Funciones _callback_](#41-funciones-_callback_)
+   * [4.2 Promesas](#42-promesas)
+- [5. _fetch_](#5-_fetch_)
+   * [5.1 Propiedades y métodos de la respuesta](#51-propiedades-y-métodos-de-la-respuesta)
+   * [5.2 Cabeceras de la petición](#52-cabeceras-de-la-petición)
+- [6. _async / await_](#6-_async--await_)
+   * [6.1 Gestión de errores en _async/await_](#61-gestión-de-errores-en-_asyncawait_)
+   * [6.2 Hacer varias peticiones simultáneamente. Promise.all](#62-hacer-varias-peticiones-simultáneamente-promiseall)
+- [7. Single Page Application](#7-single-page-application)
+- [8. Resumen de llamadas asíncronas](#8-resumen-de-llamadas-asíncronas)
+- [9. CORS](#9-cors)
 
 ## 1. Introducción
 AJAX es el acrónimo de **_Asynchronous Javascript And XML_** (Javascript asíncrono y XML) y es lo que usamos para hacer peticiones asíncronas al servidor desde Javascript. Cuando hacemos una petición al servidor no nos responde inmediatamente (la petición tiene que llegar al servidor, procesarse allí y enviarse la respuesta que llegará al cliente). 
