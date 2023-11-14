@@ -1,7 +1,19 @@
 # UD04 - Gestión de eventos
-[TOC]
-
-
+- [1. Introducción](#1-introducción)
+- [2. Cómo escuchar un evento](#2-cómo-escuchar-un-evento)
+   * [2.1 Event listeners](#21-event-listeners)
+- [3. Tipos de eventos](#3-tipos-de-eventos)
+   * [3.1 Eventos de página](#31-eventos-de-página)
+   * [3.2 Eventos de ratón](#32-eventos-de-ratón)
+   * [3.3 Eventos de teclado](#33-eventos-de-teclado)
+   * [3.4 Eventos de toque](#34-eventos-de-toque)
+   * [3.5 Eventos de formulario](#35-eventos-de-formulario)
+- [4. Los objetos _this_ y _event_](#4-los-objetos-_this_-y-_event_)
+   * [4.1 "Bindeo" del objeto _this_](#41-bindeo-del-objeto-_this_)
+- [5. Propagación de eventos (bubbling)](#5-propagación-de-eventos-bubbling)
+- [6. innerHTML y escuchadores de eventos](#6-innerhtml-y-escuchadores-de-eventos)
+- [7. Eventos personalizados](#7-eventos-personalizados)
+- [Bibliografía](#bibliografía)
 
 ## 1. Introducción
 Nos permiten detectar acciones que realiza el usuario o cambios que suceden en la página y reaccionar en respuesta a ellas. Existen muchos eventos diferentes (podéis ver la lista en [w3schools](https://www.w3schools.com/jsref/dom_obj_event.asp)) aunque nosotros nos centraremos en los más comunes.
