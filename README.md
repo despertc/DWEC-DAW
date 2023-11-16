@@ -14,20 +14,20 @@ Los contenidos detallados de cada bloque son:
 
 - Bloque 1: JavaScript
   - [UD1 - Introducción y sintaxis del lenguaje.](https://despertc.github.io/DWEC-DAW-2324/UD01/)
-  - [UD2 - Arrays y objetos.](ttps://despertc.github.io/DWEC-DAW-2324/UD02/)
-  - [UD3 - DOM y BOM.](ttps://despertc.github.io/DWEC-DAW-2324/UD03/)
-  - [UD4 - Eventos](ttps://despertc.github.io/DWEC-DAW-2324/UD04/)
-  - [UD5 - Objetos nativos y formularios](ttps://despertc.github.io/DWEC-DAW-2324/UD05/)
-  - [UD6 - Ajax y promesas.](ttps://despertc.github.io/DWEC-DAW-2324/UD06/)
-  - [UD7 - Apis y otros usos.](ttps://despertc.github.io/DWEC-DAW-2324/UD07/)
-  - [UD8 - Testeo con JS.](ttps://despertc.github.io/DWEC-DAW-2324/UD08/)
+  - [UD2 - Arrays y objetos.](https://despertc.github.io/DWEC-DAW-2324/UD02/)
+  - [UD3 - DOM y BOM.](https://despertc.github.io/DWEC-DAW-2324/UD03/)
+  - [UD4 - Eventos](https://despertc.github.io/DWEC-DAW-2324/UD04/)
+  - [UD5 - Objetos nativos y formularios](https://despertc.github.io/DWEC-DAW-2324/UD05/)
+  - [UD6 - Ajax y promesas.](https://despertc.github.io/DWEC-DAW-2324/UD06/)
+  - [UD7 - Apis y otros usos.](https://despertc.github.io/DWEC-DAW-2324/UD07/)
+  - [UD8 - Testeo con JS.](https://despertc.github.io/DWEC-DAW-2324/UD08/)
 - Bloque 2: Vue JS
-  - [UD9 - Introducción y elementos básicos. Directivas](ttps://despertc.github.io/DWEC-DAW-2324/UD09/)
-  - [UD10 - Componentes](ttps://despertc.github.io/DWEC-DAW-2324/UD10/)
-  - [UD11 - Comunicación entre componentes](ttps://despertc.github.io/DWEC-DAW-2324/UD11/)
-  - [UD12 - Axios](ttps://despertc.github.io/DWEC-DAW-2324/UD12/) 
-  - [UD13 - SPA: vue-router](ttps://despertc.github.io/DWEC-DAW-2324/UD13/)
-  - [UD14 - Otros elementos a estudiar. Composition API.](ttps://despertc.github.io/DWEC-DAW-2324/UD14/)
+  - [UD9 - Introducción y elementos básicos. Directivas](https://despertc.github.io/DWEC-DAW-2324/UD09/)
+  - [UD10 - Componentes](https://despertc.github.io/DWEC-DAW-2324/UD10/)
+  - [UD11 - Comunicación entre componentes](https://despertc.github.io/DWEC-DAW-2324/UD11/)
+  - [UD12 - Axios](https://despertc.github.io/DWEC-DAW-2324/UD12/) 
+  - [UD13 - SPA: vue-router](https://despertc.github.io/DWEC-DAW-2324/UD13/)
+  - [UD14 - Otros elementos a estudiar. Composition API.](https://despertc.github.io/DWEC-DAW-2324/UD14/)
 
 ## Licencia
 
