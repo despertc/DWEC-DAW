@@ -10,6 +10,25 @@ El módulo se va a dividir en tres grandes bloques:
 2. **Vue**: En este segundo bloque usaremos el framework Javascript **Vue JS**
 3. **Projecto Intermodular:** En este projecto, con metodología SCRUM, realizaremos un projecto completo que comprenderá todos los módulos del segundo curso.
 
+Los contenidos detallados de cada bloque son:
+
+- Bloque 1: JavaScript
+  - [UD1 - Introducción y sintaxis del lenguaje.](https://despertc.github.io/DWEC-DAW-2324/UD01/)
+  - [UD2 - Arrays y objetos.](ttps://despertc.github.io/DWEC-DAW-2324/UD02/)
+  - [UD3 - DOM y BOM.](ttps://despertc.github.io/DWEC-DAW-2324/UD03/)
+  - [UD4 - Eventos](ttps://despertc.github.io/DWEC-DAW-2324/UD04/)
+  - [UD5 - Objetos nativos y formularios](ttps://despertc.github.io/DWEC-DAW-2324/UD05/)
+  - [UD6 - Ajax y promesas.](ttps://despertc.github.io/DWEC-DAW-2324/UD06/)
+  - [UD7 - Apis y otros usos.](ttps://despertc.github.io/DWEC-DAW-2324/UD07/)
+  - [UD8 - Testeo con JS.](ttps://despertc.github.io/DWEC-DAW-2324/UD08/)
+- Bloque 2: Vue JS
+  - [UD9 - Introducción y elementos básicos. Directivas](ttps://despertc.github.io/DWEC-DAW-2324/UD09/)
+  - [UD10 - Componentes](ttps://despertc.github.io/DWEC-DAW-2324/UD10/)
+  - [UD11 - Comunicación entre componentes](ttps://despertc.github.io/DWEC-DAW-2324/UD11/)
+  - [UD12 - Axios](ttps://despertc.github.io/DWEC-DAW-2324/UD12/) 
+  - [UD13 - SPA: vue-router](ttps://despertc.github.io/DWEC-DAW-2324/UD13/)
+  - [UD14 - Otros elementos a estudiar. Composition API.](ttps://despertc.github.io/DWEC-DAW-2324/UD14/)
+
 ## Licencia
 
 [![Licencia de Creative Commons](https://camo.githubusercontent.com/f05d4039b67688cfdf339d2a445ad686a60551f9891734c418f7096184de5fac/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792d6e632d73612f342e302f38387833312e706e67)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -190,25 +209,6 @@ Todos estos contenidos se organizan en 2 bloques temáticos:
 - Bloque 2: Frameworks JavaScript. Vue JS
 
 Además, al final del módulo se realizará un proyecto integrador junto con los módulos del segundo curso de DAW.
-
-Los contenidos detallados de cada bloque son:
-
-- Bloque 1: JavaScript
-  - UD1 - Introducción y sintaxis del lenguaje.
-  - UD2 - Arrays y objetos.
-  - UD3 - DOM y BOM.
-  - UD4 - Eventos
-  - UD5 - Objetos nativos y formularios
-  - UD6 - Ajax y promesas.
-  - UD7 - Apis y otros usos.
-  - UD8 - Testeo con JS.
-- Bloque 2: Vue JS
-  - UD9 - Introducción y elementos básicos. Directivas
-  - UD10 - Componentes
-  - UD11 - Comunicación entre componentes
-  - UD12 - Axios 
-  - UD13 - SPA: vue-router
-  - UD14 - Otros elementos a estudiar. Composition API.
 
 ### 5. Metodología
 

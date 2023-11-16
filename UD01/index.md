@@ -838,6 +838,14 @@ Estas y otras muchas recomendaciones se recogen el el libro [Clean Code](https:/
 
 - [https://github.com/devictoribero/clean-code-javascript](
 
+
+
+# Ejercicios Repaso
+
+- [Ejercicios de Repaso UD01](https://despertc.github.io/DWEC-DAW-2324/UD01/Ejercicios/Repaso_UD01.md)
+
+
+
 # Bibliografía
 
 * Curso 'Programación con JavaScript'. CEFIRE Xest. Arturo Bernal Mayordomo
