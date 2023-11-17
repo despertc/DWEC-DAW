@@ -26,6 +26,9 @@
       + [3.4.1 Bootstrap](#341-bootstrap)
    * [3.5 Crear un nuevo componente](#35-crear-un-nuevo-componente)
    * [3.6 Depurar el código en la consola](#36-depurar-el-código-en-la-consola)
+- [Ejercicios Repaso](#ejercicios-repaso)
+
+
 
 ## 1. Introducción
 
@@ -733,3 +736,20 @@ Recordad que si hemos instalado las **Vue DevTools** tenemos una nueva pestaña 
 
 ![Vue DevTools](./img/console-vue_devtools.png)
 
+
+
+# Ejercicios Repaso
+
+- [Ejercicios de Repaso UD10](https://despertc.github.io/DWEC-DAW-2324/UD10/Ejercicios/Repaso_UD10.html)
+
+
+
+# Bibliografía
+
+* Curso 'Programación con JavaScript'. CEFIRE Xest. Arturo Bernal Mayordomo
+* [Curso de JavaScript y TypeScript](https://www.youtube.com/playlist?list=PLiZCpIzKtvqvt4tcQV4SAvaJn7QMdwUbd) de Arturo Bernal en Youtube
+* [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript). Moz://a. https://developer.mozilla.org/es/docs/Web/JavaScript
+* [Introducción a JavaScript](http://librosweb.es/libro/javascript/). Librosweb. http://librosweb.es/libro/javascript/
+* [Curso de Javascript (Desarrollo web en entorno cliente)](https://www.youtube.com/playlist?list=PLI7nHlOIIPOJtTDs1HVJABswW-xJcA7_o). Ada Lovecode - Didacticode (90 vídeos)
+* [Apuntes Desarrollo Web en Entorno Cliente (DWEC)](https://github.com/sergarb1/ApuntesDWEC). García Barea, Sergi
+* [Apuntes Desarrollo Web en Entorno Cliente (DWEC)](https://github.com/cipfpbatoi/materials). Segura Vasco, Juan. CIPFP Batoi.
