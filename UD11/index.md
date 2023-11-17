@@ -18,7 +18,7 @@
    * [6. Slots](#6-slots)
       + [6.1 Slots con nombre](#61-slots-con-nombre)
 
-- [Ejercicios Repaso](#ejercicio-repaso)
+- [Ejercicios Repaso](#ejercicios-repaso)
 - [Bibliografía](#bibliografía)
 
 
