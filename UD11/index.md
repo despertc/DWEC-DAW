@@ -12,8 +12,7 @@
       + [3.1 Capturar el evento en el padre](#31-capturar-el-evento-en-el-padre)
       + [3.2 Definir y validar eventos](#32-definir-y-validar-eventos)
    * [4. Compartir datos](#4-compartir-datos)
-      + [4.1 $root y $parent](#41-root-y-parent)
-      + [4.2 Store pattern](#42-store-pattern)
+      + [4.1 Store pattern](#42-store-pattern)
    * [5. Pinia](#5-pinia)
    * [6. Slots](#6-slots)
       + [6.1 Slots con nombre](#61-slots-con-nombre)
@@ -411,36 +410,10 @@ Esta forma de trabajar tiene un grave inconveniente: como el valor de cualquier 
 
 Para evitarlo podemos usar un patrón de almacén (_store pattern_) que veremos en el siguiente apartado.
 
-### 4.1 $root y $parent
-Todos los componentes tienen acceso además de a sus propios datos declarados en `data()`, a los datos y métodos definidos en la instancia de Vue (donde hacemos el `new Vue`). Por ejemplo:
-
-```javascript
-new Vue({
-  el: '#app',
-  data: {
-    message: 'Hola',
-  },
-  methods: {
-    getInfo() {
-  ...
-}
-```
-
-Desde cualquier componente podemos hacer cosas como:
-```javascript
-console.log(this.$root.message);
-this.$root.message='Adios';
-this.$root.getInfo();
-```
-
-También es posible acceder a los datos y métodos del componente padre del actual usando `$parent` en lugar de `$root`.
-
-De esta manera podríamos acceder directamente a datos del padre o usar la instancia de Vue como almacén (evitando crear el objeto **store** para compartir datos). Sin embargo, aunque esto puede ser útil en aplicaciones pequeñas, es difícil de mantener cuando nuestra aplicación crece por lo que se recomienda usar un **_Store pattern_** como veremos a continuación o **Pinia** si nuestra aplicación va a ser grande.
-
-### 4.2 Store pattern
+### 4.1 Store pattern
 Es una mejora sobre lo que hemos visto de compartir datos. Para evitar que cualquier componente pueda modificar los datos compartidos en el almacén, las acciones que modifican dichos datos están incluidas dentro del propio almacén, lo que facilita su seguimiento:
 
-Fichero `/src/store/index.js`
+Fichero `/src/datos.js`
 ```javascript
 import { reactive } from 'vue';
 
