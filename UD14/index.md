@@ -1,8 +1,26 @@
-# UD 14 - Otros elementos a estudiar. Composition API.
+# UD 14 - Otros elementos a estudiar
 
 
 
-
+- [UD 14 - Otros elementos a estudiar](#ud-14-otros-elementos-a-estudiar)
+   * [1. Computed](#1-computed)
+   * [2. Watchers](#2-watchers)
+   * [3. Acceder al DOM: 'ref'](#3-acceder-al-dom-ref)
+      + [3.1 nextTick](#31-nexttick)
+   * [4. Clases HTML](#4-clases-html)
+      + [4.1 Sintaxis de objeto](#41-sintaxis-de-objeto)
+      + [4.2 Sintaxis de array](#42-sintaxis-de-array)
+      + [4.3 Asignar clases a un componente](#43-asignar-clases-a-un-componente)
+      + [4.4 Asignar estilos directamente](#44-asignar-estilos-directamente)
+   * [5. Ciclo de vida del componente](#5-ciclo-de-vida-del-componente)
+      + [5.1 El ciclo de vida de un componente](#51-el-ciclo-de-vida-de-un-componente)
+   * [6. Componentes asíncronos](#6-componentes-asíncronos)
+   * [7. Custom Directives](#7-custom-directives)
+   * [8. Imágenes](#8-imágenes)
+   * [9. Transiciones](#9-transiciones)
+   * [10. Entornos](#10-entornos)
+   * [11. Guards del router](#11-guards-del-router)
+- [Bibliografía](#bibliografía)
 
 
 
@@ -285,11 +303,10 @@ Al crearse la instancia de Vue o un componente la aplicación debe realizar unas
 
 En la siguiente imagen podéis ver el ciclo de vida de la instancia Vue (y de cualquier componente) y los eventos que se generan y que podemos interceptar:
 
-![Ciclo de vida de Vue](https://vuejs.org/assets/lifecycle.16e4c08e.png)
-
-**NOTA**: En **Vue2**: los métodos **_beforeDestroyed_** y **_destroyed_** se usan en lugar de _**beforeUnmounted**_ y _**unmounted**_.
+![Ciclo de vida de Vue](https://vuejs.org/assets/lifecycle.DLmSwRQE.png)
 
 **IMPORTANTE**: no debemos definir estas funciones como _arrow functions_ porque en estas funciones se enlaza en la variable _this_ el componente donde se definen y si hacemos una _arrow function_ no tendríamos _this_:
+
 ```javascript
 // MAL, NO HACER ASÍ
 created: () => {
@@ -396,9 +413,9 @@ import focus from './focus.js'
 Si queremos utilizarla en muchos componentes podemos importarla en el _main.js_ y así estará disponible para todos los componentes.
 
 Los estados de la directiva en los que podemos actuar son:
-- **mounted** (en Vue2 **inserted**): cuando se inserte la directiva
-- **updated** (en Vue2 **componentUpdated**): cuando se actualice el componente que contiene la directiva
-- **beforeMount** (en Vue2 **bind**): cuando se enlaza la directiva al componente por primera vez, antes de montar el componente
+- **mounted**: cuando se inserte la directiva
+- **updated**: cuando se actualice el componente que contiene la directiva
+- **beforeMount**: cuando se enlaza la directiva al componente por primera vez, antes de montar el componente
 - ...
 
 ## 8. Imágenes
