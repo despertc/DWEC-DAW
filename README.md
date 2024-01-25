@@ -29,7 +29,7 @@ Los contenidos detallados de cada bloque son:
   - [UD13 - SPA: vue-router](https://despertc.github.io/DWEC-DAW-2324/UD13/)
   - [UD14 - Otros elementos a estudiar](https://despertc.github.io/DWEC-DAW-2324/UD14/)
   - [UD15 - Herramientas para proyectos](https://despertc.github.io/DWEC-DAW-2324/UD15/)
-  - [UD16 - Otros elementos a estudiar. Composition API.](https://despertc.github.io/DWEC-DAW-2324/UD16/)
+  - [UD16 - Pinia.](https://despertc.github.io/DWEC-DAW-2324/UD16/)
   - [UD17 - Composition API.](https://despertc.github.io/DWEC-DAW-2324/UD17/)
 
 ## Licencia
