@@ -1,6 +1,6 @@
-# DESENVOLUPAMENT WEB ENTORN CLIENT 23-24
+# DESENVOLUPAMENT WEB ENTORN CLIENT
 
-Apuntes del módulo de "Desarrollo Web en Entorno Cliente" del 2º curso del CFGS "Desarrollo de Aplicaciones Web" para el curso 2023-2024.
+Apuntes del módulo de "Desarrollo Web en Entorno Cliente" del 2º curso del CFGS "Desarrollo de Aplicaciones Web".
 
 ## Bloques
 
